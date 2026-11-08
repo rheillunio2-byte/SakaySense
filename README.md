@@ -1,159 +1,255 @@
-<div align="center">
+ <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:081B33,45:123D5A,100:DAA520&text=SAKAYSENSE&fontColor=FFFFFF&fontSize=58&fontAlignY=42&desc=Navigate%20Smarter.%20Travel%20Better.&descAlignY=65&descSize=17&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=shark&height=230&color=0:071B33,45:075985,100:06B6D4&text=SakaySense&fontColor=FFFFFF&fontSize=68&fontAlignY=45&animation=twinkling&desc=Find%20your%20route.%20Move%20with%20confidence.&descAlignY=68&descSize=17" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=21&duration=3000&pause=1000&color=DAA520&center=true&vCenter=true&width=750&lines=Every+Route+Has+a+Smarter+Way.;Know+Your+Route.+Know+Your+Fare.;Stay+Updated.+Travel+Confidently.;Your+Journey+Starts+with+SakaySense." alt="Animated introduction" />
+<br/>
 
-**A public transportation information system designed to help commuters explore routes, estimate fares, and stay informed about transportation conditions.**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Your+journey+starts+with+SakaySense.;Explore+routes.+Discover+destinations.;Plan+smarter.+Travel+easier.;Making+commuting+more+accessible." alt="Typing SVG" />
 
-[![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-DAA520?style=for-the-badge)](#-license)
-[![Status](https://img.shields.io/badge/Status-Prototype-123D5A?style=for-the-badge)](#)
+<br/>
 
-[Overview](#-overview) • [Features](#-features) • [Transportation Modes](#-transportation-modes) • [Installation](#-installation) • [Contributing](#-contributing)
+**A public transportation information system designed to help commuters navigate Cagayan de Oro City.**
+
+<br/>
+
+<img src="https://img.shields.io/badge/Project-Public%20Transportation-0284C7?style=for-the-badge&logo=googlemaps&logoColor=white" />
+<img src="https://img.shields.io/badge/Platform-Web%20Application-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" />
+<img src="https://img.shields.io/badge/License-MIT-7C3AED?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+
+<br/><br/>
+
+[Overview](#-overview) • [Features](#-key-features) • [Screenshots](#-screenshots) • [Getting Started](#-getting-started) • [Contributing](#-contributing) • [License](#-license)
 
 </div>
 
 ---
 
-## 🚌 Overview
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06B6D4,100:1D4ED8&height=4&section=header" width="100%" />
+</div>
 
-**SakaySense** is a public transportation information system designed to make commuting more convenient, understandable, and accessible.
+## 📍 Overview
 
-Finding the right public transportation route can be challenging, especially when commuters need to consider multiple transportation options, fares, and possible delays.
+**SakaySense** is a public transportation information system designed to make commuting easier and more convenient in Cagayan de Oro City, Misamis Oriental, Philippines.
 
-SakaySense aims to address these challenges by providing a centralized platform where commuters can explore available transportation routes, estimate their travel expenses, and share information about transport delays.
+The platform helps commuters discover destinations, explore available transportation options, plan trips, estimate fares, and report transportation delays through a centralized interface.
 
-Designed around the public transportation environment of **Cagayan de Oro City, Misamis Oriental, Philippines**, the system focuses on making local commuting information easier to access.
+With an interactive map and flexible location search, SakaySense aims to make public transportation information more accessible and understandable for everyday commuters.
 
-Whether someone is traveling to school, work, or another destination, SakaySense aims to help them make more informed transportation decisions.
+### 🎯 Project Objectives
 
-### ✨ Our Mission
-
-To make public transportation information more accessible by helping commuters understand their travel options, prepare their fares, and stay informed about possible disruptions.
-
-> **EXPLORE. ESTIMATE. REPORT. COMMUTE.**
+- Make public transportation information easier to access.
+- Help commuters explore available transportation options.
+- Simplify origin and destination searching.
+- Provide estimated fare information for different passenger categories.
+- Improve awareness of transportation delays.
+- Encourage smarter and more convenient travel planning.
 
 ---
 
-## 📸 Application Preview
+## ✨ Key Features
 
-The application preview images can be added to the `images/` folder as the interface evolves.
-
-| Screen | Screenshot path |
+| Feature | Description |
 |---|---|
-| Main Dashboard | `images/Dashboard.PNG` |
-| Trip Planner & Map | `images/Routes.PNG` |
-| Fare Estimator | `images/Fare Estimator.PNG` |
-| Transport Delay Reports | `images/Delay Reports.PNG` |
-| Transportation Options | `images/Transportation Modes.PNG` |
+| **Interactive Map** | Explore locations and view selected origin and destination markers. |
+| **Smart Location Search** | Search for destinations using place names, landmarks, and addresses. |
+| **Trip Planner** | Select starting points and destinations to explore available travel options. |
+| **Vehicle Options** | Explore supported transportation types, including jeepneys, buses, and motorelas. |
+| **Fare Estimator** | View estimated fares based on passenger categories. |
+| **Passenger Categories** | Supports Regular, Student, and Senior Citizen fare categories. |
+| **Delay Reports** | Report and review transportation delays. |
+| **Responsive Interface** | Designed for convenient use across desktop and mobile screens. |
 
 ---
 
-## 🚀 Features
+## 🗺️ How It Works
 
-### 🗺️ 1. Interactive Map
-- Built with **Leaflet.js** and **OpenStreetMap** data. The default basemap is Esri World Street Map (no API key needed); a layers button switches to OpenStreetMap Standard or OpenTopoMap. OSM's own tile server rejects requests with no valid Referer (for example pages opened from `file://`) and CARTO's free tiles now need a key, so neither is the default. Check each provider's terms before commercial use, centred on Cagayan de Oro City.
-- Zoom, pan and explore (mouse, touch, on-screen buttons, or keyboard once the map is focused).
-- Starting point (**A**) and destination (**B**) markers with popups.
-- The map zooms to fit both places automatically.
-- A dashed **straight-line link** connects A and B. It is only a visual aid — it is **not** a jeepney, bus or motorela route, and is labelled that way on the map, in the legend and in the results.
-- **Recenter** and **Fit trip** buttons, a scale bar, a collapsible legend and OpenStreetMap attribution.
-- Responsive: the map is a large side panel on desktop and sits above the planner on tablets and phones.
-- If the map library cannot load (offline), a message appears and everything else keeps working.
+<div align="center">
 
-### 🔎 2. Location Search & Autocomplete
-- Free-text search for practically any place, street, barangay, landmark or establishment, using **OpenStreetMap Nominatim**.
-- Instant local suggestions: Limketkai Center, SM City Cagayan de Oro, Centrio Mall, Ayala Malls, Cogon Market, Divisoria, Agora / Westbound / Eastbound terminals, City Hall, Xavier University, USTP, Liceo de Cagayan University, Capitol University, Northern Mindanao Medical Center and Cagayan de Oro Port.
-- Results show a place name and address, with loading, no-results and error (with *Retry*) states.
-- By default results are limited to Cagayan de Oro; tick **Search outside Cagayan de Oro** to search anywhere.
-- Debounced (600 ms), minimum 3 characters, one network request per second at most, in-flight requests cancelled, and results cached in memory and in this browser for 7 days.
-- Keyboard accessible (ARIA combobox: ↑ ↓ Home End Enter Esc).
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F766E,100:0284C7&height=55&text=From%20Search%20to%20Destination&fontColor=FFFFFF&fontSize=20" width="90%" />
 
-> **Note on Nominatim:** the public Nominatim server asks apps not to hammer it and discourages as-you-type autocomplete. SakaySense throttles and caches aggressively, but for real public deployment please use your own Nominatim instance or a commercial geocoder.
+</div>
 
-### 📍 3. Origin & Destination
-- Enter, clear and **swap** the starting point and destination.
-- Pick suggested places or search by free text.
-- **Use my current location** (◎ button): the browser asks for permission only after you press it. Nothing is requested on page load.
+SakaySense follows a simple commuting workflow:
 
-### 🚦 4. Transport Options
-Jeepney, Bus (Orostco / Donsal) and Motorela cards for a planned trip show:
-- transport type, origin and destination,
-- estimated fare (for the selected passenger category),
-- estimated travel time,
-- route name, intermediate stops, transfers and notes — **only when verified route data exists**; otherwise they are shown as *“Not available”* / *“Not determined”*.
-
-**Honest by design:** SakaySense does not ship any verified route, fare or schedule database. Fares use the project's original sample rates; travel time uses assumed average speeds; road distance is the straight-line distance × 1.3. All of these are labelled **Estimate**. The original prototype's sample notes for a few place pairs are kept and shown as “Earlier sample note”.
-
-To add real routes, fill in `js/routes-data.js` (the schema is documented in the file). Matching routes appear as **Route data** cards, with alternatives listed together.
-
-### 💰 5. Fare Estimator
-| Fare Category | Description |
-|---|---|
-| Regular | Standard passenger fare |
-| Student | Sample 20% discount |
-| Senior Citizen | Sample 20% discount |
-
-- Choose a transport type, passenger category and distance (1–40 km).
-- See a fare breakdown (base fare, additional distance, discount).
-- Use the estimated distance from your planned trip with one click.
-- The passenger category is shared with the trip planner.
-
-*The calculator uses illustrative sample rates (unchanged from the original prototype), not an official fare matrix. Confirm actual fares and discounts with the operator or authority.*
-
-### 🚦 6. Transport Delay Reports
-- Submit reports with a location, transport type, issue and optional details; quick-fill the location from your trip.
-- See saved reports with relative times; delete one report or all of them.
-- Reports are stored in this browser's `localStorage` under the same key and format as before, so earlier saved reports still appear.
-- Reports are **not** shared, verified or sent to any authority.
-
-### 🎨 7. User Interface
-- Original navy, teal and gold identity, now with a trip-planner dashboard.
-- Responsive desktop and mobile layouts, working mobile menu, reduced-motion support and visible keyboard focus.
+1. **Choose Your Location** – Enter your starting point and destination.
+2. **Explore the Map** – View selected locations and their map markers.
+3. **Discover Transportation** – Explore available vehicle and route information.
+4. **Estimate Your Fare** – Select your passenger category and check the estimated fare.
+5. **Stay Informed** – Check or submit transportation delay reports.
 
 ---
 
-## 🛠️ Built With
+## 🖥️ Screenshots
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Application structure and content |
-| CSS3 | Styling, animations, and responsive layouts |
-| JavaScript (ES6+, no framework) | Interactive features, split into small modules in `js/` |
-| [Leaflet.js 1.9.4](https://leafletjs.com/) | Interactive map (loaded from the unpkg CDN) |
-| [OpenStreetMap](https://www.openstreetmap.org/) | Place data and search (Nominatim). Basemap tiles: Esri World Street Map by default, with OpenStreetMap Standard and OpenTopoMap selectable |
-| [Nominatim](https://nominatim.org/) | Place search and reverse geocoding |
-| Local Storage | Delay reports and the search cache |
+Explore the different sections of the SakaySense interface.
 
-- No backend, no build step, no npm install, **no API keys**.
+### Main Page
+
+<div align="center">
+
+<img src="images/Main Page.PNG" width="95%" alt="SakaySense Main Page" />
+
+<sub>The main SakaySense interface and commuting dashboard.</sub>
+
+</div>
+
+### Trip Planner
+
+<div align="center">
+
+<img src="images/Trip Planner.PNG" width="95%" alt="SakaySense Trip Planner" />
+
+<sub>Plan journeys by selecting your origin and destination.</sub>
+
+</div>
+
+### Vehicle Options
+
+<div align="center">
+
+<img src="images/Vehicle Options.PNG" width="95%" alt="SakaySense Vehicle Options" />
+
+<sub>Explore available public transportation options.</sub>
+
+</div>
+
+### Fare Estimator
+
+<div align="center">
+
+<img src="images/Fare Estimator.PNG" width="95%" alt="SakaySense Fare Estimator" />
+
+<sub>Estimate transportation fares based on passenger categories.</sub>
+
+</div>
+
+### Delay Reports
+
+<div align="center">
+
+<img src="images/Delay Reports.PNG" width="95%" alt="SakaySense Delay Reports" />
+
+<sub>View and report transportation delays.</sub>
+
+</div>
 
 ---
 
-## 📦 Installation
+## 🧰 Technology Stack
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white)
+
+</div>
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Mapping and Location Services
+- Leaflet.js
+- OpenStreetMap
+- Nominatim Geocoding Service
+
+### Browser Features
+- Browser Geolocation API
+- LocalStorage (where implemented)
+
+---
+
+## 🚀 Getting Started
+
+Follow these instructions to run SakaySense locally.
+
+### Prerequisites
+
+Make sure you have:
+
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) or another code editor.
+- A modern web browser.
+- An active internet connection for online map tiles and location search.
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/rheillunio2-byte/SakaySense.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
 cd SakaySense
 ```
 
-### Run it
-Serve the folder with any static server — for example the **Live Server** extension in Visual Studio Code (right-click `index.html` → *Open with Live Server*), or:
+### 3. Open the Project
 
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
+Open the project folder in Visual Studio Code.
 
-Opening `index.html` directly also works for most features, but browsers may block location sharing on `file://` pages and some send no Referer to Nominatim. Using `http://localhost` is recommended.
+### 4. Run the Application
 
-### 🌐 Internet requirements
-An internet connection is needed for the map tiles, the Leaflet library (CDN), Google Fonts and Nominatim searches. Offline, the app still loads; the map and place search are unavailable, while the fare estimator and delay reports keep working.
+You can open `index.html` directly in your browser or use the Live Server extension in Visual Studio Code.
 
-### 📍 Geolocation permissions
-“Use my current location” asks your browser for permission when you press the button. It only works on `https://` or `http://localhost`. If you decline, you can type your starting point instead. If you allow it, your coordinates are sent to OpenStreetMap's Nominatim only to look up a street address, and are not stored by SakaySense.
+If using Live Server:
+
+1. Open the project in Visual Studio Code.
+2. Install the Live Server extension if necessary.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+5. Open the local address displayed in your browser.
+
+---
+
+## 🌐 Map and Location Search
+
+SakaySense uses Leaflet and OpenStreetMap to provide an interactive map experience.
+
+Nominatim can be used to search for locations and retrieve geographic coordinates.
+
+**Important considerations:**
+
+- An internet connection is required for online map tiles and geocoding.
+- Location search availability depends on the external service.
+- Nominatim has usage policies and request limitations.
+- Browser geolocation requires user permission.
+- A displayed map connection should not automatically be interpreted as a verified public transportation route.
+
+Map services and location data are subject to their respective providers' terms and policies.
+
+---
+
+## ⚠️ Data Accuracy and Limitations
+
+SakaySense is intended to help commuters access public transportation information.
+
+However, route availability, fare estimates, travel times, and transportation details depend on the accuracy and completeness of the available data.
+
+Unless supported by verified sources or official integrations:
+
+- Route information should be treated as indicative.
+- Fare calculations should be treated as estimates.
+- Travel durations are not guaranteed.
+- Map markers do not indicate live vehicle positions.
+- The application does not claim official real-time vehicle tracking.
+
+Always verify important transportation information with the appropriate operators or local authorities.
+
+---
+
+## 🔐 Privacy
+
+SakaySense may use browser location services when a user chooses to access their current location.
+
+Location permission is controlled through the browser. Users can decline or revoke permission through their browser settings.
+
+Do not submit sensitive personal information through reports or other application features.
 
 ---
 
@@ -161,100 +257,71 @@ An internet connection is needed for the map tiles, the Leaflet library (CDN), G
 
 ```text
 SakaySense/
+│
+├── images/
+│   ├── Delay Reports.PNG
+│   ├── Fare Estimator.PNG
+│   ├── Main Page.PNG
+│   ├── Trip Planner.PNG
+│   └── Vehicle Options.PNG
+│
 ├── index.html
 ├── styles.css
-├── app.js                # application entry point / wiring
-├── js/
-│   ├── utils.js          # shared helpers
-│   ├── data.js           # place suggestions, sample fare & estimate models
-│   ├── routes-data.js    # verified route dataset (empty — add real data here)
-│   ├── geocoder.js       # Nominatim client: throttle, cache, errors
-│   ├── location-field.js # accessible autocomplete component
-│   ├── map.js            # Leaflet map wrapper
-│   ├── routes.js         # transport options and result cards
-│   ├── fare.js           # fare calculation and estimator UI
-│   └── reports.js        # delay reports (localStorage)
+├── app.js
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── .gitignore
 ```
 
----
-
-## ⚠️ Data Accuracy & Limitations
-
-- Routes, fares, travel times and distances are **estimates for orientation only**, not official information.
-- There is **no live vehicle tracking**, schedule data or verified public-transport integration.
-- The straight line on the map is not a transit route.
-- Place data comes from OpenStreetMap and may be incomplete or out of date.
-- Delay reports are local to your browser and unverified.
+*The structure above represents the main project files; additional assets or configuration files may be present.*
 
 ---
 
-## 💡 Why SakaySense?
+## 🔮 Future Improvements
 
-Commuting is part of everyday life. However, finding routes, understanding fares, and knowing about transportation delays can sometimes be difficult.
+Potential improvements for future versions include:
 
-SakaySense aims to make these tasks easier by bringing useful public transportation information together in one platform.
-
-### Our Core Principles
-
-- **Accessibility** — Make transportation information easier to find.
-- **Convenience** — Help commuters explore routes and estimate fares.
-- **Awareness** — Give commuters a way to share transportation delay information.
-- **Practicality** — Focus on everyday commuting needs.
-- **Community** — Encourage commuters to contribute useful travel information.
-
----
-
-## 🗺️ Future Improvements
-
-- [x] Interactive map with place search (OpenStreetMap + Nominatim).
-- [x] Browser-permission-based current location.
-- [x] Estimated travel time (assumed speeds) and fare per trip.
-- [ ] Verified, sourced route data (stops, names, transfers) in `js/routes-data.js`.
-- [ ] Drawing real jeepney / bus / motorela routes from verified data (e.g. GeoJSON).
-- [ ] Multi-leg journeys with transfers.
-- [ ] Verified and regularly updated fare information.
-- [ ] Real-time vehicle tracking (requires an operator data feed).
-- [ ] Shared, moderated delay reports (requires a backend).
-- [ ] Self-hosted geocoder and map tiles for production use.
-- [ ] Saved places, favourites and notifications.
-- [ ] Accessibility and multilingual improvements.
+- Verified public transportation route databases.
+- More comprehensive route coverage across Cagayan de Oro.
+- Real-time vehicle location tracking.
+- More accurate fare calculations.
+- Route alternatives and transfer recommendations.
+- Estimated arrival times.
+- Improved commuter notifications.
+- User accounts and personalized travel preferences.
+- Community-based transportation updates.
+- Additional accessibility features.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome!
+Contributions, suggestions, and feedback are welcome!
 
-If you would like to contribute to SakaySense, please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
+You can help improve SakaySense by:
 
-You can contribute by:
-- Reporting bugs.
+- Reporting bugs and issues.
 - Suggesting new features.
-- Improving route information.
-- Updating transportation details.
-- Improving fare estimation.
-- Enhancing the user interface.
-- Improving accessibility.
-- Submitting code improvements.
+- Improving the interface and user experience.
+- Expanding location suggestions.
+- Improving route and fare information.
+- Enhancing map functionality.
+- Updating project documentation.
 
-### Basic Contribution Workflow
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Test your changes locally.
-5. Commit your updates.
-6. Submit a pull request.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
 
 ---
 
 ## 📄 License
 
-SakaySense is distributed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
+SakaySense is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for the full license text.
+
+You can also view the license on GitHub:
+
+[View SakaySense MIT License](https://github.com/rheillunio2-byte/SakaySense?tab=MIT-1-ov-file)
 
 ---
 
@@ -262,13 +329,11 @@ SakaySense is distributed under the **MIT License**. See the [LICENSE](LICENSE) 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:081B33,100:123D5A&height=110&section=header&text=Built%20for%20Every%20Journey&fontSize=27&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
+**Developed by RETL**
 
-### Rheil Evans T. Lunio
+Rheil Evans Lunio
 
-**Developer & Creator of SakaySense**
-
-[![GitHub](https://img.shields.io/badge/GitHub-@rheillunio2--byte-181717?style=for-the-badge&logo=github)](https://github.com/rheillunio2-byte)
+[![GitHub](https://img.shields.io/badge/GitHub-rheillunio2--byte-181717?style=for-the-badge&logo=github)](https://github.com/rheillunio2-byte)
 
 </div>
 
@@ -276,12 +341,10 @@ SakaySense is distributed under the **MIT License**. See the [LICENSE](LICENSE) 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:081B33,50:123D5A,100:DAA520&height=170&section=footer&text=Every%20Journey%20Matters.&fontSize=28&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:06B6D4,45:0284C7,100:071B33&height=150&section=footer&animation=twinkling" width="100%" />
 
-**EXPLORE • ESTIMATE • REPORT • COMMUTE**
+**SakaySense** · Find your route. Move with confidence.
 
-*Making every journey a little more informed.*
-
-⭐ If you find SakaySense interesting, consider giving the repository a star!
+<sub>© 2026 Rheil Evans Lunio. Licensed under the MIT License.</sub>
 
 </div>
